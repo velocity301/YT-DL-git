@@ -1,7 +1,5 @@
 #Python 3.7.0 version
 import os
-import subprocess
-import sys
 inputfilename = input('What is your list filename?')
 numberofsongs = sum(1 for line in open(inputfilename))
 for x in range(0, numberofsongs):
